@@ -1,0 +1,54 @@
+{
+  "data": {
+    "name": "Company Headquarters",
+    "email": "headquarters@company.com",
+    "description": "Main Corporate Office",
+    "type": "category",
+    "children": [
+      {
+        "name": "Engineering Department",
+        "email": "engineering@company.com",
+        "description": "Software Development Division",
+        "type": "category",
+        "children": [
+          {
+            "name": "Frontend Team",
+            "email": "frontend@company.com",
+            "description": "UI/UX Development Team",
+            "type": "leaf",
+            "children": []
+          },
+          {
+            "name": "Backend Team",
+            "email": "backend@company.com",
+            "description": "Server Infrastructure Team",
+            "type": "leaf",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Marketing Department",
+        "email": "marketing@company.com",
+        "description": "Brand and Promotion Division",
+        "type": "category",
+        "children": [
+          {
+            "name": "Social Media Team",
+            "email": "social@company.com",
+            "description": "Online Presence Management",
+            "type": "leaf",
+            "children": []
+          },
+          {
+            "name": "Advertising Team",
+            "email": "ads@company.com",
+            "description": "Campaign Development Team",
+            "type": "leaf",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name":"Recursive Tree Diagram",
+  "short_name":"Tree Diagram",
+  "start_url":"/",
+  "display":"standalone",
+  "background_color":"#f7f9fc",
+  "theme_color":"#0876df",
+  "icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
