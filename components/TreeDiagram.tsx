@@ -2,7 +2,6 @@
 
 import {
   useCallback,
-  useEffect,
   useMemo,
   useRef,
   useState,
@@ -689,9 +688,6 @@ export default function TreeDiagram({
       null,
     );
 
-  const [installEvent, setInstallEvent] =
-    useState<any>(null);
-
   const dragging =
     useRef(false);
 
@@ -740,30 +736,6 @@ export default function TreeDiagram({
       query,
       search.parents,
     ]);
-
-  /* =======================================================
-     PWA INSTALL PROMPT
-  ======================================================= */
-
-  useEffect(() => {
-    const handler = (
-      event: Event,
-    ) => {
-      event.preventDefault();
-      setInstallEvent(event);
-    };
-
-    window.addEventListener(
-      "beforeinstallprompt",
-      handler,
-    );
-
-    return () =>
-      window.removeEventListener(
-        "beforeinstallprompt",
-        handler,
-      );
-  }, []);
 
   /* =======================================================
      TOGGLE
@@ -992,27 +964,6 @@ export default function TreeDiagram({
   };
 
   /* =======================================================
-     PWA INSTALL
-  ======================================================= */
-
-  const install =
-    async () => {
-      if (!installEvent) {
-        window.alert(
-          "Install prompt is not available. Use the browser menu and choose Install app / Add to Home screen.",
-        );
-
-        return;
-      }
-
-      await installEvent.prompt();
-
-      setInstallEvent(
-        null,
-      );
-    };
-
-  /* =======================================================
      UI
   ======================================================= */
 
@@ -1189,15 +1140,6 @@ export default function TreeDiagram({
               Reset
             </button>
 
-            {installEvent && (
-              <button
-                type="button"
-                className="h-9 shrink-0 rounded-[9px] bg-[#0876df] px-3 text-sm font-semibold text-white"
-                onClick={install}
-              >
-                Install
-              </button>
-            )}
           </div>
         </div>
       </div>
