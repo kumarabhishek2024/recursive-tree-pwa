@@ -8,44 +8,760 @@
       {
         "name": "Engineering Department",
         "email": "engineering@company.com",
-        "description": "Software Development Division",
+        "description": "Engineering Department Division",
         "type": "category",
         "children": [
           {
-            "name": "Frontend Team",
-            "email": "frontend@company.com",
-            "description": "UI/UX Development Team",
-            "type": "leaf",
-            "children": []
+            "name": "Engineering Team A",
+            "email": "engineering.team1@company.com",
+            "description": "Engineering Team A working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Engineering Team A Member 1",
+                "email": "engineering.team1.member1@company.com",
+                "description": "Member 1 of Engineering Team A",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Engineering Team A Member 2",
+                "email": "engineering.team1.member2@company.com",
+                "description": "Member 2 of Engineering Team A",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Engineering Team A Member 3",
+                "email": "engineering.team1.member3@company.com",
+                "description": "Member 3 of Engineering Team A",
+                "type": "leaf",
+                "children": []
+              }
+            ]
           },
           {
-            "name": "Backend Team",
-            "email": "backend@company.com",
-            "description": "Server Infrastructure Team",
-            "type": "leaf",
-            "children": []
+            "name": "Engineering Team B",
+            "email": "engineering.team2@company.com",
+            "description": "Engineering Team B working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Engineering Team B Member 1",
+                "email": "engineering.team2.member1@company.com",
+                "description": "Member 1 of Engineering Team B",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Engineering Team B Member 2",
+                "email": "engineering.team2.member2@company.com",
+                "description": "Member 2 of Engineering Team B",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Engineering Team B Member 3",
+                "email": "engineering.team2.member3@company.com",
+                "description": "Member 3 of Engineering Team B",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Engineering Team C",
+            "email": "engineering.team3@company.com",
+            "description": "Engineering Team C working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Engineering Team C Member 1",
+                "email": "engineering.team3.member1@company.com",
+                "description": "Member 1 of Engineering Team C",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Engineering Team C Member 2",
+                "email": "engineering.team3.member2@company.com",
+                "description": "Member 2 of Engineering Team C",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Engineering Team C Member 3",
+                "email": "engineering.team3.member3@company.com",
+                "description": "Member 3 of Engineering Team C",
+                "type": "leaf",
+                "children": []
+              }
+            ]
           }
         ]
       },
       {
         "name": "Marketing Department",
         "email": "marketing@company.com",
-        "description": "Brand and Promotion Division",
+        "description": "Marketing Department Division",
         "type": "category",
         "children": [
           {
-            "name": "Social Media Team",
-            "email": "social@company.com",
-            "description": "Online Presence Management",
-            "type": "leaf",
-            "children": []
+            "name": "Marketing Team A",
+            "email": "marketing.team1@company.com",
+            "description": "Marketing Team A working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Marketing Team A Member 1",
+                "email": "marketing.team1.member1@company.com",
+                "description": "Member 1 of Marketing Team A",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Marketing Team A Member 2",
+                "email": "marketing.team1.member2@company.com",
+                "description": "Member 2 of Marketing Team A",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Marketing Team A Member 3",
+                "email": "marketing.team1.member3@company.com",
+                "description": "Member 3 of Marketing Team A",
+                "type": "leaf",
+                "children": []
+              }
+            ]
           },
           {
-            "name": "Advertising Team",
-            "email": "ads@company.com",
-            "description": "Campaign Development Team",
-            "type": "leaf",
-            "children": []
+            "name": "Marketing Team B",
+            "email": "marketing.team2@company.com",
+            "description": "Marketing Team B working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Marketing Team B Member 1",
+                "email": "marketing.team2.member1@company.com",
+                "description": "Member 1 of Marketing Team B",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Marketing Team B Member 2",
+                "email": "marketing.team2.member2@company.com",
+                "description": "Member 2 of Marketing Team B",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Marketing Team B Member 3",
+                "email": "marketing.team2.member3@company.com",
+                "description": "Member 3 of Marketing Team B",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Marketing Team C",
+            "email": "marketing.team3@company.com",
+            "description": "Marketing Team C working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Marketing Team C Member 1",
+                "email": "marketing.team3.member1@company.com",
+                "description": "Member 1 of Marketing Team C",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Marketing Team C Member 2",
+                "email": "marketing.team3.member2@company.com",
+                "description": "Member 2 of Marketing Team C",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Marketing Team C Member 3",
+                "email": "marketing.team3.member3@company.com",
+                "description": "Member 3 of Marketing Team C",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Finance Department",
+        "email": "finance@company.com",
+        "description": "Finance Department Division",
+        "type": "category",
+        "children": [
+          {
+            "name": "Finance Team A",
+            "email": "finance.team1@company.com",
+            "description": "Finance Team A working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Finance Team A Member 1",
+                "email": "finance.team1.member1@company.com",
+                "description": "Member 1 of Finance Team A",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Finance Team A Member 2",
+                "email": "finance.team1.member2@company.com",
+                "description": "Member 2 of Finance Team A",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Finance Team A Member 3",
+                "email": "finance.team1.member3@company.com",
+                "description": "Member 3 of Finance Team A",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Finance Team B",
+            "email": "finance.team2@company.com",
+            "description": "Finance Team B working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Finance Team B Member 1",
+                "email": "finance.team2.member1@company.com",
+                "description": "Member 1 of Finance Team B",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Finance Team B Member 2",
+                "email": "finance.team2.member2@company.com",
+                "description": "Member 2 of Finance Team B",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Finance Team B Member 3",
+                "email": "finance.team2.member3@company.com",
+                "description": "Member 3 of Finance Team B",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Finance Team C",
+            "email": "finance.team3@company.com",
+            "description": "Finance Team C working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Finance Team C Member 1",
+                "email": "finance.team3.member1@company.com",
+                "description": "Member 1 of Finance Team C",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Finance Team C Member 2",
+                "email": "finance.team3.member2@company.com",
+                "description": "Member 2 of Finance Team C",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Finance Team C Member 3",
+                "email": "finance.team3.member3@company.com",
+                "description": "Member 3 of Finance Team C",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Human Resources Department",
+        "email": "hr@company.com",
+        "description": "Human Resources Department Division",
+        "type": "category",
+        "children": [
+          {
+            "name": "Human Resources Team A",
+            "email": "hr.team1@company.com",
+            "description": "Human Resources Team A working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Human Resources Team A Member 1",
+                "email": "hr.team1.member1@company.com",
+                "description": "Member 1 of Human Resources Team A",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Human Resources Team A Member 2",
+                "email": "hr.team1.member2@company.com",
+                "description": "Member 2 of Human Resources Team A",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Human Resources Team A Member 3",
+                "email": "hr.team1.member3@company.com",
+                "description": "Member 3 of Human Resources Team A",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Human Resources Team B",
+            "email": "hr.team2@company.com",
+            "description": "Human Resources Team B working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Human Resources Team B Member 1",
+                "email": "hr.team2.member1@company.com",
+                "description": "Member 1 of Human Resources Team B",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Human Resources Team B Member 2",
+                "email": "hr.team2.member2@company.com",
+                "description": "Member 2 of Human Resources Team B",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Human Resources Team B Member 3",
+                "email": "hr.team2.member3@company.com",
+                "description": "Member 3 of Human Resources Team B",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Human Resources Team C",
+            "email": "hr.team3@company.com",
+            "description": "Human Resources Team C working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Human Resources Team C Member 1",
+                "email": "hr.team3.member1@company.com",
+                "description": "Member 1 of Human Resources Team C",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Human Resources Team C Member 2",
+                "email": "hr.team3.member2@company.com",
+                "description": "Member 2 of Human Resources Team C",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Human Resources Team C Member 3",
+                "email": "hr.team3.member3@company.com",
+                "description": "Member 3 of Human Resources Team C",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Operations Department",
+        "email": "operations@company.com",
+        "description": "Operations Department Division",
+        "type": "category",
+        "children": [
+          {
+            "name": "Operations Team A",
+            "email": "operations.team1@company.com",
+            "description": "Operations Team A working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Operations Team A Member 1",
+                "email": "operations.team1.member1@company.com",
+                "description": "Member 1 of Operations Team A",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Operations Team A Member 2",
+                "email": "operations.team1.member2@company.com",
+                "description": "Member 2 of Operations Team A",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Operations Team A Member 3",
+                "email": "operations.team1.member3@company.com",
+                "description": "Member 3 of Operations Team A",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Operations Team B",
+            "email": "operations.team2@company.com",
+            "description": "Operations Team B working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Operations Team B Member 1",
+                "email": "operations.team2.member1@company.com",
+                "description": "Member 1 of Operations Team B",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Operations Team B Member 2",
+                "email": "operations.team2.member2@company.com",
+                "description": "Member 2 of Operations Team B",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Operations Team B Member 3",
+                "email": "operations.team2.member3@company.com",
+                "description": "Member 3 of Operations Team B",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Operations Team C",
+            "email": "operations.team3@company.com",
+            "description": "Operations Team C working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Operations Team C Member 1",
+                "email": "operations.team3.member1@company.com",
+                "description": "Member 1 of Operations Team C",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Operations Team C Member 2",
+                "email": "operations.team3.member2@company.com",
+                "description": "Member 2 of Operations Team C",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Operations Team C Member 3",
+                "email": "operations.team3.member3@company.com",
+                "description": "Member 3 of Operations Team C",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sales Department",
+        "email": "sales@company.com",
+        "description": "Sales Department Division",
+        "type": "category",
+        "children": [
+          {
+            "name": "Sales Team A",
+            "email": "sales.team1@company.com",
+            "description": "Sales Team A working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Sales Team A Member 1",
+                "email": "sales.team1.member1@company.com",
+                "description": "Member 1 of Sales Team A",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Sales Team A Member 2",
+                "email": "sales.team1.member2@company.com",
+                "description": "Member 2 of Sales Team A",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Sales Team A Member 3",
+                "email": "sales.team1.member3@company.com",
+                "description": "Member 3 of Sales Team A",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Sales Team B",
+            "email": "sales.team2@company.com",
+            "description": "Sales Team B working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Sales Team B Member 1",
+                "email": "sales.team2.member1@company.com",
+                "description": "Member 1 of Sales Team B",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Sales Team B Member 2",
+                "email": "sales.team2.member2@company.com",
+                "description": "Member 2 of Sales Team B",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Sales Team B Member 3",
+                "email": "sales.team2.member3@company.com",
+                "description": "Member 3 of Sales Team B",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Sales Team C",
+            "email": "sales.team3@company.com",
+            "description": "Sales Team C working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Sales Team C Member 1",
+                "email": "sales.team3.member1@company.com",
+                "description": "Member 1 of Sales Team C",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Sales Team C Member 2",
+                "email": "sales.team3.member2@company.com",
+                "description": "Member 2 of Sales Team C",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Sales Team C Member 3",
+                "email": "sales.team3.member3@company.com",
+                "description": "Member 3 of Sales Team C",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Customer Support Department",
+        "email": "support@company.com",
+        "description": "Customer Support Department Division",
+        "type": "category",
+        "children": [
+          {
+            "name": "Customer Support Team A",
+            "email": "support.team1@company.com",
+            "description": "Customer Support Team A working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Customer Support Team A Member 1",
+                "email": "support.team1.member1@company.com",
+                "description": "Member 1 of Customer Support Team A",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Customer Support Team A Member 2",
+                "email": "support.team1.member2@company.com",
+                "description": "Member 2 of Customer Support Team A",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Customer Support Team A Member 3",
+                "email": "support.team1.member3@company.com",
+                "description": "Member 3 of Customer Support Team A",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Customer Support Team B",
+            "email": "support.team2@company.com",
+            "description": "Customer Support Team B working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Customer Support Team B Member 1",
+                "email": "support.team2.member1@company.com",
+                "description": "Member 1 of Customer Support Team B",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Customer Support Team B Member 2",
+                "email": "support.team2.member2@company.com",
+                "description": "Member 2 of Customer Support Team B",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Customer Support Team B Member 3",
+                "email": "support.team2.member3@company.com",
+                "description": "Member 3 of Customer Support Team B",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Customer Support Team C",
+            "email": "support.team3@company.com",
+            "description": "Customer Support Team C working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Customer Support Team C Member 1",
+                "email": "support.team3.member1@company.com",
+                "description": "Member 1 of Customer Support Team C",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Customer Support Team C Member 2",
+                "email": "support.team3.member2@company.com",
+                "description": "Member 2 of Customer Support Team C",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Customer Support Team C Member 3",
+                "email": "support.team3.member3@company.com",
+                "description": "Member 3 of Customer Support Team C",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Research Department",
+        "email": "research@company.com",
+        "description": "Research Department Division",
+        "type": "category",
+        "children": [
+          {
+            "name": "Research Team A",
+            "email": "research.team1@company.com",
+            "description": "Research Team A working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Research Team A Member 1",
+                "email": "research.team1.member1@company.com",
+                "description": "Member 1 of Research Team A",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Research Team A Member 2",
+                "email": "research.team1.member2@company.com",
+                "description": "Member 2 of Research Team A",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Research Team A Member 3",
+                "email": "research.team1.member3@company.com",
+                "description": "Member 3 of Research Team A",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Research Team B",
+            "email": "research.team2@company.com",
+            "description": "Research Team B working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Research Team B Member 1",
+                "email": "research.team2.member1@company.com",
+                "description": "Member 1 of Research Team B",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Research Team B Member 2",
+                "email": "research.team2.member2@company.com",
+                "description": "Member 2 of Research Team B",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Research Team B Member 3",
+                "email": "research.team2.member3@company.com",
+                "description": "Member 3 of Research Team B",
+                "type": "leaf",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Research Team C",
+            "email": "research.team3@company.com",
+            "description": "Research Team C working group",
+            "type": "category",
+            "children": [
+              {
+                "name": "Research Team C Member 1",
+                "email": "research.team3.member1@company.com",
+                "description": "Member 1 of Research Team C",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Research Team C Member 2",
+                "email": "research.team3.member2@company.com",
+                "description": "Member 2 of Research Team C",
+                "type": "leaf",
+                "children": []
+              },
+              {
+                "name": "Research Team C Member 3",
+                "email": "research.team3.member3@company.com",
+                "description": "Member 3 of Research Team C",
+                "type": "leaf",
+                "children": []
+              }
+            ]
           }
         ]
       }
